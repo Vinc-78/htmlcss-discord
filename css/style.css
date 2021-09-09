@@ -8,3 +8,32 @@
            width: 100%;
            margin:auto;
            border:1px solid black;}
+
+
+.bg-hero {background-image: url("../img/jumbo.png");
+          background-size: cover;
+          background-position-y: center;
+          }
+  
+/* ********** 
+Classi utilities */
+  
+/* Clearfix */
+.row:after { content:"";
+            display: table;
+            clear: both;}
+  
+  
+/* Classi che contengono  col- */
+[class*="col-"] { float:left;} 
+  
+/* Per proporzionare le colonne */
+  
+.col-1_6 { width: calc (100% / 6 );}
+.col-2_6 { width: calc (100% / 6 * 2 );}
+.col-4_6 { width: calc (100% / 6 * 4 );}
+  
+/* per centrare i div */
+.center-block { margin:0 auto; }
+/* per dare lo sfondo grigio alle sezioni */
+.bg-grey {background-color: lightgrey;}
