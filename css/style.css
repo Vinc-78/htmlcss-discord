@@ -4,8 +4,15 @@
     box-sizing: border-box;
   }
 
+  /* Elementi in comune a tutti i link */
+  * ul {list-style: none;}
+
+  * a { text-decoration: none;
+        color:white;}
+
+
 .container{ max-width: 920px;
-           width: 100%;
+           
            margin:auto;
            border:1px solid black;}
 
@@ -14,14 +21,26 @@
           background-size: cover;
           background-position-y: center;
           }
+
+#logo {padding: 12px 0;}
+
+.navigare ul li{ display:inline-block;
+                 padding: 10px;
+                 font-size: 18px;}
+
+.navigare {text-align: center;
+           padding: 10px;
+           vertical-align: middle;}
+
+
   
 /* ********** 
 Classi utilities */
   
 /* Clearfix */
 .row:after { content:"";
-            display: table;
-            clear: both;}
+             display: table;
+             clear: both;}
   
   
 /* Classi che contengono  col- */
@@ -29,11 +48,18 @@ Classi utilities */
   
 /* Per proporzionare le colonne */
   
-.col-1_6 { width: calc (100% / 6 );}
-.col-2_6 { width: calc (100% / 6 * 2 );}
-.col-4_6 { width: calc (100% / 6 * 4 );}
+.col-1_6 { width: calc(100% / 6);}
+.col-2_6 { width: calc(100% / 6 * 2);}
+.col-4_6 { width: calc(100% / 6 * 4);}
   
 /* per centrare i div */
 .center-block { margin:0 auto; }
 /* per dare lo sfondo grigio alle sezioni */
 .bg-grey {background-color: lightgrey;}
+
+.btn { padding: 20px 25px;
+       margin: 0px 10px;
+       border-radius: 50%;}
+
+.btn_light {background-color: white;
+            color: black;}
