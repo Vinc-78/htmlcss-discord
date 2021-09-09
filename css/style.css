@@ -113,6 +113,11 @@ footer{padding-top: 60px;}
 
 .footer-link { padding:0 30px;}
 
+.registrati { padding:25px 0;}
+
+
+.wave{padding: -20vh;}
+
 /* ********** 
 Classi utilities */
 /* ********** */ 
@@ -167,3 +172,5 @@ Classi utilities */
               color: white;}
 
 #st {border:rgb(114, 137, 218);}
+
+
