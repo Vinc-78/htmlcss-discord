@@ -11,10 +11,10 @@
         color:white;}
 
 
-.container{ max-width: 920px;
-           
-           margin:auto;
-           border:1px solid black;}
+.container{ height: 90vh;
+            max-width: 920px;
+            margin:auto;
+            }
 
 
 .bg-hero {background-image: url("../img/jumbo.png");
@@ -22,7 +22,7 @@
           background-position-y: center;
           }
 
-#logo {padding: 12px 0;}
+ #logo {padding: 12px 0;} 
 
 .navigare ul li{ display:inline-block;
                  padding: 10px;
@@ -30,13 +30,43 @@
 
 .navigare {text-align: center;
            padding: 10px;
-           vertical-align: middle;}
+           }
+
+/* Centro il tasto della nav a destra */
+.tasto_nav {padding: 20px 0 20px 80px }
+ 
+/* Centro la parte di testo nell'hero */
+.hero-central{ color:white;
+               height: 60%;
+               margin: auto;
+               position: relative;
+               }
+
+.testo-hero{ position:absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             }
+
+.testo-hero h1 { padding: 20px 0;
+                 text-align: center;}
+
+.testo-hero p {text-align: center;
+               padding: 20px 0;}
 
 
-  
+.hero-central .testo-hero ul { text-align: center;}
+
+.hero-central .testo-hero ul li{ display:inline-block;
+                                 padding: 10px;
+                                 font-size: 16px;
+                                } 
+
+
 /* ********** 
 Classi utilities */
-  
+/* ********** */ 
+
 /* Clearfix */
 .row:after { content:"";
              display: table;
@@ -52,14 +82,21 @@ Classi utilities */
 .col-2_6 { width: calc(100% / 6 * 2);}
 .col-4_6 { width: calc(100% / 6 * 4);}
   
-/* per centrare i div */
-.center-block { margin:0 auto; }
+
 /* per dare lo sfondo grigio alle sezioni */
 .bg-grey {background-color: lightgrey;}
 
-.btn { padding: 20px 25px;
+/* Classi per settare i pulsanti */
+.btn { padding: 15px 15px;
        margin: 0px 10px;
-       border-radius: 50%;}
+       border-radius: 25%;}
 
 .btn_light {background-color: white;
-            color: black;}
+            color: rgb(38, 42, 45);}
+
+.btn_small {font-size: 15px;}
+
+.btn_dark {background-color: rgb(35, 39, 42);;
+            color: white;}
+
+.btn_big {font-size: 15px;}
