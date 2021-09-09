@@ -73,12 +73,14 @@
 .row .titolo-sezioni p{font-size:16px;
                        }
 
-/* ultima Sezione a tutto video */
+
+/* ultima Sezione a tutto video  con domanda*/
 
 .quarta-sezione {text-align: center;
-                 padding: 25px 0;}
+                 padding: 25px 0;
+                 height: 150vh;}
 
-.quarta-sezione .immagine-sezione img {height: 60vh;
+.quarta-sezione .immagine-sezione img {height: auto;
                                         }
 
 .quarta-sezione .titolo-sezioni h1 {padding: 20px 0;}
@@ -94,7 +96,23 @@
                                 left: 20%;
                                 bottom: 50%;}
 
-                                
+footer{padding-top: 60px;}
+
+
+.imgfooter img {width: 20%;
+                padding: 10px 0;
+                vertical-align: middle;}
+ 
+.imgfooter  {color:white;
+             font-size: 18px;}   
+             
+.social {display: inline-block;}
+.social a { padding:  10px 10px;}
+
+.footer-link ul li {padding:  10px 0px;}
+
+.footer-link { padding:0 30px;}
+
 /* ********** 
 Classi utilities */
 /* ********** */ 
@@ -107,16 +125,28 @@ Classi utilities */
   
 /* Classi che contengono  col- */
 [class*="col-"] { float:left;} 
-  
+
+/* aiutano ad allineare  */
+.centra{ margin-left: 20%;} /* footer */
+.spazioalto{ margin-top: 20vh;} /* sezioni */
+
+
+
 /* Per proporzionare le colonne */
   
 .col-1_6 { width: calc(100% / 6);}
 .col-2_6 { width: calc(100% / 6 * 2);}
 .col-4_6 { width: calc(100% / 6 * 4);}
-  
 
-/* per dare lo sfondo grigio alle sezioni */
+.col-2_7 { width: calc(100% / 6 - -50px);} 
+
+/* per dare colore */
+
 .bg-grey {background-color: lightgrey;}
+
+.bg-darkgrey {background-color: rgb(24, 23, 23);}
+
+.purple{color:rgb(114, 137, 218);}
 
 /* Classi per settare i pulsanti */
 .btn { padding: 15px 15px;
@@ -133,4 +163,7 @@ Classi utilities */
 
 .btn_big {font-size: 15px;}
 
-.spazioalto{ margin-top: 15vh;}
+.btn_lpurple {background-color: rgb(142, 161, 225);
+              color: white;}
+
+#st {border:rgb(114, 137, 218);}
