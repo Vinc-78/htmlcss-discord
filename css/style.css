@@ -115,8 +115,19 @@ footer{padding-top: 60px;}
 
 .registrati { padding:25px 0;}
 
+/* Posiziono l'onda */
 
-.wave{padding: -20vh;}
+.wave-top {height: 18vh;
+           margin-bottom: -20vh;
+           opacity: 0.1;
+           background-image: url("../img/wave.svg");}
+
+.wave-rotate {transform: rotate(180deg);
+             height: 16vh;
+             opacity: 0.1;
+             background-image: url("../img/wave.svg");}
+   
+
 
 /* ********** 
 Classi utilities */
@@ -147,7 +158,7 @@ Classi utilities */
 
 /* per dare colore */
 
-.bg-grey {background-color: lightgrey;}
+.bg-grey {background-color: rgb(230, 230, 230);}
 
 .bg-darkgrey {background-color: rgb(24, 23, 23);}
 
