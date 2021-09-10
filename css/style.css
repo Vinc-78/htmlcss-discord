@@ -22,18 +22,21 @@
           background-position-y: center;
           }
 
- #logo {padding: 12px 0;} 
+.row .col-1_6 a { line-height: 15vh; }
+ 
 
 .navigare ul li{ display:inline-block;
                  padding: 10px;
                  font-size: 18px;}
+
+.navigare ul { line-height: 5vh;}
 
 .navigare {text-align: center;
            padding: 10px;
            }
 
 /* Centro il tasto della nav a destra */
-.tasto_nav {padding: 20px 0 20px 80px }
+.tasto_nav { text-align: right;}
  
 /* Centro la parte di testo nell'hero */
 .hero-central{ color:white;
@@ -107,6 +110,7 @@ footer{padding-top: 60px;}
              font-size: 18px;}   
              
 .social {display: inline-block;}
+
 .social a { padding:  10px 10px;}
 
 .footer-link ul li {padding:  10px 0px;}
@@ -114,6 +118,9 @@ footer{padding-top: 60px;}
 .footer-link { padding:0 30px;}
 
 .registrati { padding:25px 0;}
+
+#st {border:1 solid rgb(114, 137, 218);}
+
 
 /* Posiziono l'onda */
 
@@ -126,9 +133,10 @@ footer{padding-top: 60px;}
              height: 16vh;
              opacity: 0.1;
              background-image: url("../img/wave.svg");}
-   
 
 
+
+           
 /* ********** 
 Classi utilities */
 /* ********** */ 
@@ -143,8 +151,9 @@ Classi utilities */
 [class*="col-"] { float:left;} 
 
 /* aiutano ad allineare  */
-.centra{ margin-left: 20%;} /* footer */
+
 .spazioalto{ margin-top: 20vh;} /* sezioni */
+
 
 
 
@@ -182,6 +191,6 @@ Classi utilities */
 .btn_lpurple {background-color: rgb(142, 161, 225);
               color: white;}
 
-#st {border:rgb(114, 137, 218);}
+
 
 
