@@ -134,6 +134,10 @@ footer{padding-top: 60px;}
              opacity: 0.1;
              background-image: url("../img/wave.svg");}
 
+/* Inserita l'ombra quando si passa con il mouse sui tasti */
+.ombra:hover { box-shadow:10px 10px 10px black;
+               color:blue;
+             }
 
 
            
